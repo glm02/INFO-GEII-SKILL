@@ -60,5 +60,5 @@ qu'on ne sait pas expliquer reste une mauvaise idée.
 
 ---
 
-Rafael — étudiant en 2e année de BUT GEII · [portfolio](https://www.rafaelgmille.site) ·
+Étudiant en 2e année de BUT GEII · [portfolio](https://www.rafaelgmille.site) ·
 mes autres skills : [skills-claude-code](https://github.com/glm02/skills-claude-code)
