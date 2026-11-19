@@ -1,0 +1,6 @@
+(version 1)
+
+# Exemple de projet : cette distance ne constitue pas une validation de sécurité.
+(rule "Exemple separation secteur TBT"
+  (condition "(A.hasNetclass('Secteur') && !B.hasNetclass('Secteur')) || (B.hasNetclass('Secteur') && !A.hasNetclass('Secteur'))")
+  (constraint clearance (min 3mm)))

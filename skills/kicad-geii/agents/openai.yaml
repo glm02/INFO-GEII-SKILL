@@ -1,0 +1,4 @@
+interface:
+  display_name: "KiCad GEII Lyon 1"
+  short_description: "CAO GEII : conception, contrôles et fabrication"
+  default_prompt: "Utilise $kicad-geii pour corriger ma carte et produire les livrables demandés par le cours."

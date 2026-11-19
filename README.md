@@ -1,4 +1,20 @@
-# Skill `c-pic-iut-geii` — le C pour PIC comme en cours de GEII
+# Skills BUT GEII — IUT Lyon 1
+
+Toutes mes skills pour le BUT GEII, regroupées dans un seul dépôt :
+
+| Skill | Rôle |
+|---|---|
+| [`c-pic-iut-geii`](skills/c-pic-iut-geii) | C pour PIC (MPLAB X / XC8) comme en cours, en mode guidé |
+| [`kicad-geii`](skills/kicad-geii) | Cartes KiCad pour les TP CAO et SAÉ du GEII Lyon 1 : règles de l'IUT, contrôles, dossier de fabrication |
+| [`kicad-projet`](skills/kicad-projet) | ERC/DRC et dossier de fabrication JLCPCB |
+| [`esp32-arduino`](skills/esp32-arduino) | Compiler et téléverser avec arduino-cli, capteurs, Wi-Fi |
+| [`dimensionnement-pv`](skills/dimensionnement-pv) | Photovoltaïque : PVGIS, onduleur, câbles, rentabilité |
+| [`blender-solaire`](skills/blender-solaire) | Modéliser une maison et poser les panneaux à l'échelle |
+| [`rapport-tp`](skills/rapport-tp) | Comptes rendus de TP et rapports de SAÉ |
+| [`fiche-revision`](skills/fiche-revision) | Fiches, méthodes et QCM à partir d'un cours |
+| [`candidature-stage`](skills/candidature-stage) | Recherche d'entreprise, lettre, relance |
+
+## Détail : `c-pic-iut-geii`, le C pour PIC comme en cours de GEII
 
 Une **skill** pour agent IA (Claude, Codex…) : écrire, corriger ou expliquer du code
 C pour microcontrôleur PIC (MPLAB X / XC8) **comme le demandent les enseignants du
@@ -41,14 +57,15 @@ que de donner la solution**.
 ```bash
 git clone https://github.com/glm02/INFO-GEII-SKILL.git
 
-# Claude Code
-cp -r INFO-GEII-SKILL/c-pic-iut-geii ~/.claude/skills/
+# Claude Code (une skill, ou toutes)
+cp -r INFO-GEII-SKILL/skills/c-pic-iut-geii ~/.claude/skills/
+cp -r INFO-GEII-SKILL/skills/* ~/.claude/skills/
 
 # Codex
-cp -r INFO-GEII-SKILL/c-pic-iut-geii ~/.agents/skills/
+cp -r INFO-GEII-SKILL/skills/c-pic-iut-geii ~/.agents/skills/
 ```
 
-Pour l'application Claude (claude.ai) : compresser le dossier `c-pic-iut-geii` en zip
+Pour l'application Claude (claude.ai) : compresser le dossier d'une skill en zip
 et l'importer dans les paramètres, rubrique Skills.
 Tuto illustré : [rafaelgmille.site/stack#installer](https://www.rafaelgmille.site/stack#installer).
 
